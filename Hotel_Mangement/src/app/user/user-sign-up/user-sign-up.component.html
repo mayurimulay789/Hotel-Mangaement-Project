@@ -1,1 +1,31 @@
-<p>user-sign-up works!</p>
+<div class="container">
+<button routerLink="/user">Back</button>
+<div class="main">
+        <h2>Sign Up Now</h2>
+        <h4>Register Yourself!!!!</h4>
+    <form [formGroup]="Custdata!" class="rectiveform" autocomplete="on">
+        <input type="text" class="input-box"value="firstname" formControlName="Firstname" Placeholder="Enter your First Name"><br>
+        <span class="bg" *ngIf="Custdata.get('Firstname')?.touched && Custdata.get('Firstname')?.hasError('required')"  >Name is required</span><br>
+       
+        <input type="text" class="input-box" value="lastname" formControlName="Lastname" placeholder="Enter Your Last Name"><br>
+        <span class="bg" *ngIf="Custdata.get('Lastname')?.touched && Custdata.get('Lastname')?.hasError('required') ">Name is required</span><br>
+
+        <input type="text" class="input-box"value="emaill" formControlName="Email" placeholder="Enter Your Email Address"><br>
+        <span  class="bg" *ngIf="Custdata.get('Email')?.touched && Custdata.get('Email')?.hasError('required')">email id is required</span><br>
+        
+        <label class="input-box">Gender :</label>
+        <input type="radio"class="sa" value="Male" formControlName="Gender">Male
+        <input type="radio"class="sa" value="Female" formControlName="Gender">Female<br><br>
+
+        <input type="text" class="input-box" value="Mobilenumber" formControlName="Mobilenumber" placeholder="Enter Your Mobile Number" maxlength="10"><br>
+        <span class="bg" *ngIf="Custdata.get('Mobilenumber')?.touched && Custdata.get('Mobilenumber')?.hasError('minlength') ">Enter correct mobile number</span><br>
+
+         <input type="Password"class="input-box" value="password"formControlName="Password"placeholder="Enter your Password"><br>
+         <span class="bg" *ngIf="Custdata.get('Password')?.touched && Custdata.get('Password')?.hasError('required')">Please Enter Correct Password</span>
+        
+       
+<button type="button" class="button" [disabled]="Custdata.invalid" (click)="saveuser(Custdata.value)">Sumbit</button><br>
+</form>
+<p>Do you have an account ? <a routerLink="/user-sign-in"style="float:right;color:rgb(47, 52, 162)" >Sign In</a></p>
+</div>
+</div>

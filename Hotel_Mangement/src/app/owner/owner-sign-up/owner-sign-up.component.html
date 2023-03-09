@@ -1,1 +1,36 @@
-<p>owner-sign-up works!</p>
+<!-- <div class="container">
+    <button routerLink="/user">Back</button>
+    <div class="main">
+            <h2>SignUP</h2>
+            <h5>Register Yourself!!!!</h5>
+        <form [formGroup]="Custdata!" class="rectiveform ">
+            <label Class="fname">First Name</label><br>
+            <input type="text" class="input-box"value="firstname" formControlName="Firstname" Placeholder="Enter your First Name"><br>
+            <span class="bg" *ngIf="Custdata.get('Firstname')?.touched && Custdata.get('Firstname')?.hasError('required')"  >Name is required</span><br>
+           
+            <label class="lname">Last Name</label><br>
+            <input type="text" class="input-box" value="lastname" formControlName="Lastname" placeholder="Enter Your Last Name"><br>
+            <span class="bg" *ngIf="Custdata.get('Lastname')?.touched && Custdata.get('Lastname')?.hasError('required') ">Name is required</span><br>
+    
+            <label >Email Address</label><br>
+            <input type="text" class="input-box"value="emaill" formControlName="Email" placeholder="Enter Your Email Address"><br>
+            <span  class="bg" *ngIf="Custdata.get('Email')?.touched && Custdata.get('Email')?.hasError('required')">email id is required</span><br>
+            
+            <label>Gender</label><br>
+            <input type="radio"class="sa" value="Male" formControlName="Gender">Male<br>
+            <input type="radio"class="sa" value="Female" formControlName="Gender">Female<br><br>
+    
+            <label for="">Mobile Number</label><br>
+            <input type="text"class="input-box" value="Mobilenumber" formControlName="Mobilenumber" placeholder="Enter Your Mobile Number" maxlength="10"><br>
+            <span class="bg" *ngIf="Custdata.get('Mobilenumber')?.touched && Custdata.get('Mobilenumber')?.hasError('minlength') ">Enter correct mobile number</span><br>
+            
+             <label for="">Password</label><br>
+             <input type="text"class="input-box" value="password"formControlName="Password" pattern="[a-zA-Z0-9&@*%]{10}"><br>
+             <span class="bg" *ngIf="Custdata.get('Password')?.touched && Custdata.get('Password')?.hasError('required','pattern')">Please Enter Correct Password</span>
+             <span  class="bg" *ngIf="Custdata.get('Password')?.touched hasError('maxlength')">Password must be contain 8 Character</span>
+           
+    <button type="submit"[disabled]="Custdata.invalid"(click)="sumbitformdata(Custdata.value)" class="sw">Sumbit</button><br>
+    </form>
+    <a routerLink="/user-sign-in" style="float:right;color:rgb(47, 52, 162)">already have account? click to SignIn</a><br>
+    </div>
+    </div> -->

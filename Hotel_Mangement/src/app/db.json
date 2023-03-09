@@ -1,0 +1,532 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "FirstName": "Akshay",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "id": 2,
+      "FirstName": "Suraj",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "id": 3,
+      "FirstName": "Mayuri",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "id": 4,
+      "FirstName": "Rushikesh",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "id": 5,
+      "FirstName": "santosh",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    }
+  ],
+  "hotel": [
+    {
+      "userName": "Varun Dhavan",
+      "hotelName": "Royal King",
+      "hotelAddress": "Sanbhajinagar",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Snacks",
+      "roomAvailable": "12",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 1
+    },
+    {
+      "userName": "Sachin Shinde",
+      "hotelName": "Oscarwadi",
+      "hotelAddress": "Munbai",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Uttapas",
+      "roomAvailable": "07",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 2
+    },
+    {
+      "userName": "Akshay Kumar",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 3
+    },
+    {
+      "userName": "Hardik Pandey",
+      "hotelName": "Dharmaraj",
+      "hotelAddress": "Maval,Pune",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Hot Beverages",
+      "roomAvailable": "07",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 4
+    },
+    {
+      "userName": "Sachin Mulak",
+      "hotelName": "Jagdanb",
+      "hotelAddress": "Paithan",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Rice",
+      "roomAvailable": "07",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 5
+    },
+    {
+      "userName": "Sachin Tendulkar",
+      "hotelName": "Jagdanb",
+      "hotelAddress": "Munbai",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Fish Pulav",
+      "roomAvailable": "07",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 6
+    },
+    {
+      "userName": "Vijay Shinde",
+      "hotelName": "Rajveer",
+      "hotelAddress": "Pune",
+      "hotelMobile": "9766725698",
+      "hotelMenu": "Shahi Panir",
+      "roomAvailable": "03",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 7
+    },
+    {
+      "userName": "Pravin Shinde",
+      "hotelName": "5 star",
+      "hotelAddress": "Ahmadnagar",
+      "hotelMobile": "9860908876",
+      "hotelMenu": "Paneer",
+      "roomAvailable": "10",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 8
+    },
+    {
+      "userName": "Prathmesh Patil",
+      "hotelName": "7 star",
+      "hotelAddress": "Pune",
+      "hotelMobile": "9860908876",
+      "hotelMenu": "Paneer Tikka",
+      "roomAvailable": "10",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 9
+    },
+    {
+      "userName": "Yogesh Tade",
+      "hotelName": "samarth",
+      "hotelAddress": "Pategaon",
+      "hotelMobile": "9860908876",
+      "hotelMenu": "Rice",
+      "roomAvailable": "10",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 10
+    },
+    {
+      "userName": "Pravin Shinde",
+      "hotelName": "5 star",
+      "hotelAddress": "Ahmadnagar",
+      "hotelMobile": "9860908876",
+      "hotelMenu": "Paneer",
+      "roomAvailable": "10",
+      "owenrCheck": true,
+      "userPass": "12345678",
+      "id": 11
+    },
+    {
+      "userName": "Abhijeet Malkapure",
+      "hotelName": "Hotel Plasa",
+      "hotelAddress": "Malkapur",
+      "hotelMobile": "9860908859",
+      "hotelMenu": "Rice",
+      "roomAvailable": "09",
+      "owenrCheck": true,
+      "userPass": "12121212",
+      "id": 12
+    },
+    {
+      "userName": "Anushka",
+      "hotelName": "AnshRaj Hotel",
+      "hotelAddress": "Nepti Naka ,Beed.",
+      "hotelMobile": "9832983888",
+      "hotelMenu": "Dal Tadka",
+      "roomAvailable": "02",
+      "owenrCheck": true,
+      "userPass": "12312312",
+      "id": 13
+    }
+  ],
+  "owner": [
+    {
+      "id": 1,
+      "FirstName": "santosh",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "id": 2,
+      "FirstName": "Sujata",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "FirstName": "Ajay",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "id": 2,
+      "FirstName": "Savita",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "id": 3,
+      "FirstName": "santosh",
+      "LastName": "Mulay",
+      "userEmail": "santosg@12gamil.com",
+      "gender": "male",
+      "userMob": "9860908859",
+      "userPass": "12345678"
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 4
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 5
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 6
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 7
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 8
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 9
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 10
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 11
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 12
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 13
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "Mayuri@678",
+      "id": 14
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 15
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 16
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 17
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 18
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 19
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 20
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 21
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 22
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 23
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 24
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 25
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 26
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 27
+    },
+    {
+      "Firstname": "Harshada",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayuri@789",
+      "id": 28
+    },
+    {
+      "Firstname": "SHANTARAM",
+      "Lastname": "mulay ",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Male",
+      "Mobilenumber": "9876542367",
+      "Password": "mayuri@123",
+      "id": 29
+    },
+    {
+      "Firstname": "mayuri",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayur",
+      "id": 30
+    },
+    {
+      "Firstname": "mayuri",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mayur",
+      "id": 31
+    }
+  ],
+  "hotelbooking": [
+    {
+      "userName": "santosh",
+      "userAddress": "Sanbhajinagar",
+      "bookingAmount": "1000",
+      "userPass": "12345678",
+      "id": 1
+    },
+    {
+      "userName": "Shivaji",
+      "userAddress": "Sheevgaon",
+      "bookingAmount": "1000",
+      "userPass": "12345678",
+      "id": 2
+    },
+    {
+      "userName": "Prashant Galdhar",
+      "userAddress": "Pathardi ",
+      "bookingAmount": "1000",
+      "userPass": "12345678",
+      "id": 3
+    },
+    {
+      "userName": "Suraj",
+      "userAddress": "Naka",
+      "bookingAmount": "1000",
+      "userPass": "12345678",
+      "id": 4
+    },
+    {
+      "userName": "sachin",
+      "userAddress": "Ahmadnagar",
+      "bookingAmount": "1000",
+      "userPass": "12345678",
+      "id": 5
+    }
+  ]
+}

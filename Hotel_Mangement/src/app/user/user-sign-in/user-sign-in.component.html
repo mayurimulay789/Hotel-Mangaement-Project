@@ -1,1 +1,17 @@
-<p>user-sign-in works!</p>
+ <div class="container">
+<div class="main">
+    <h1 style="text-align: center;">Login</h1><br>
+
+<form [formGroup]="userdataform!">
+<input type="text"class='sw' value="email" formControlName="Email" placeholder="Enter Your Email"><br>
+<span class="km" *ngIf="userdataform.get('Email')?.touched && userdataform.get('Email')?.hasError('required')">enter correct email Id</span><br>
+
+<input type="password"class='sw' value="password" formControlName="Password" Placeholder= "Enter Your Password"><br>
+<span  class='km'*ngIf="userdataform.get('Password')?.touched && userdataform.get('Password')?.hasError('required')">enter valid password</span>
+
+<button type="submit"  class="button" style="text-align: center" (click)="sumbitformdata(userdataform.value)">Login</button><br>
+
+<p class="mak">New User?<a routerLink="/user-sign-up"style="color: rgb(26, 3, 76)" > Register Now</a></p><br>
+</form> 
+</div> 
+</div>

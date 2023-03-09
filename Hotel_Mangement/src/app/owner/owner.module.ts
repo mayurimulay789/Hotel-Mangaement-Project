@@ -6,6 +6,7 @@ import { OwnerComponent } from './owner.component';
 import { OwnerSignInComponent } from './owner-sign-in/owner-sign-in.component';
 import { OwnerSignUpComponent } from './owner-sign-up/owner-sign-up.component';
 import { MyHotelListComponent } from './my-hotel-list/my-hotel-list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { MyHotelListComponent } from './my-hotel-list/my-hotel-list.component';
   ],
   imports: [
     CommonModule,
-    OwnerRoutingModule
+    OwnerRoutingModule,FormsModule,ReactiveFormsModule
   ]
 })
 export class OwnerModule { }

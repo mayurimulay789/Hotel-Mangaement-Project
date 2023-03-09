@@ -6,9 +6,9 @@ const routes: Routes = [
   {path:'landing',component:LandingComponent},
    {path:'', redirectTo:'/landing',pathMatch:'full'},
 
-  { path: 'Admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
- { path: 'Owner', loadChildren: () => import('./owner/owner.module').then(m => m.OwnerModule) }, 
- { path: 'User', loadChildren: () => import('./user/user.module').then(m => m.UserModule) }, { path: 'User', loadChildren: () => import('./user/user.module').then(m => m.UserModule) }, { path: 'User', loadChildren: () => import('./user/user.module').then(m => m.UserModule) }];
+ { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
+ { path: 'owner', loadChildren: () => import('./owner/owner.module').then(m => m.OwnerModule) }, 
+ { path: 'user', loadChildren: () => import('./user/user.module').then(m => m.UserModule) }, { path: 'User', loadChildren: () => import('./user/user.module').then(m => m.UserModule) }, { path: 'User', loadChildren: () => import('./user/user.module').then(m => m.UserModule) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
