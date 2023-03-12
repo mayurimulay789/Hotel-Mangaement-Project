@@ -10,10 +10,57 @@
 }
 
 .sw{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: rgb(218, 26, 26);
+  color: antiquewhite;
+  border: 0;
+  margin-top: 20px;
+  box-shadow: 2px 2px lightgray;
     margin-left: 15px;
 
 }
-  
+  .mw{
+    width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: rgb(3, 50, 50);
+  color: antiquewhite;
+  border: 0;
+  margin-top: 20px;
+  box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+  }
+.kw{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #2cdb09;
+  color: antiquewhite;
+  border: 0;
+  margin-top: 20px;
+  box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+}
+.bw{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: rgb(63, 38, 7);
+  color: antiquewhite;
+  border: 0;
+  margin-top: 20px;
+  box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+}
   .div{
     background-color: coral;
+  }
+  .bw{
+    margin-left: 15px;
   }

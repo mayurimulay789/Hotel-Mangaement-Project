@@ -1,0 +1,31 @@
+<div class="container">
+    <button routerLink="/admin">Back</button>
+    <div class="main">
+            <h2>Sign Up Now</h2>
+            <h4>Register Yourself!!!!</h4>
+        <form [formGroup]="Adminsigndata!">
+            <input type="text" class="input-box" value="firstname" formControlName="Firstname" Placeholder="Enter your First Name"><br>
+            <span class="bg" *ngIf="Adminsigndata.get('Firstname')?.touched && Adminsigndata.get('Firstname')?.hasError('required')"  >Name is required</span><br>
+           
+            <input type="text" class="input-box" value="lastname" formControlName="Lastname" placeholder="Enter Your Last Name"><br>
+            <span class="bg" *ngIf="Adminsigndata.get('Lastname')?.touched && Adminsigndata.get('Lastname')?.hasError('required') ">Name is required</span><br>
+    
+            <input type="text" class="input-box"value="emaill" formControlName="Email" placeholder="Enter Your Email Address"><br>
+            <span  class="bg" *ngIf="Adminsigndata.get('Email')?.touched && Adminsigndata.get('Email')?.hasError('required')">email id is required</span><br>
+            
+            <label class="input-box">Gender :</label>
+            <input type="radio"class="sa" value="Male" formControlName="Gender">Male
+            <input type="radio"class="sa" value="Female" formControlName="Gender">Female<br><br>
+    
+            <input type="text" class="input-box" value="Mobilenumber" formControlName="Mobilenumber" placeholder="Enter Your Mobile Number" maxlength="10"><br>
+            <span class="bg" *ngIf="Adminsigndata.get('Mobilenumber')?.touched && Adminsigndata.get('Mobilenumber')?.hasError('minlength') ">Enter correct mobile number</span><br>
+    
+             <input type="Password"class="input-box" value="password"formControlName="Password"placeholder="Enter your Password"><br>
+             <span class="bg" *ngIf="Adminsigndata.get('Password')?.touched && Adminsigndata.get('Password')?.hasError('required')">Please Enter Correct Password</span>
+            
+           
+    <button type="button" class="button" [disabled]="Adminsigndata.invalid" (click)="admindata(Adminsigndata.value)">Submit</button><br>
+    </form>
+    <p>Do you have an account ? <a routerLink="/admin-sign-in"style="float:right;color:rgb(47, 52, 162)" >Sign In</a></p>
+    </div>
+    </div>

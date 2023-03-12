@@ -4,28 +4,28 @@
       "id": 1,
       "FirstName": "Akshay",
       "LastName": "Mulay",
-      "userEmail": "santosg@12gamil.com",
-      "gender": "male",
-      "userMob": "9860908859",
-      "userPass": "12345678"
+      "Email": "santosg@12gamil.com",
+      "Gender": "male",
+      "Mobilenumber": "9860908859",
+      "Password": "12345678"
     },
     {
       "id": 2,
       "FirstName": "Suraj",
       "LastName": "Mulay",
-      "userEmail": "santosg@12gamil.com",
-      "gender": "male",
-      "userMob": "9860908859",
-      "userPass": "12345678"
+      "Email": "santosg@12gamil.com",
+      "Gender": "male",
+      "Mobilenumber": "9860908859",
+      "Password": "12345678"
     },
     {
       "id": 3,
       "FirstName": "Mayuri",
       "LastName": "Mulay",
-      "userEmail": "santosg@12gamil.com",
-      "gender": "male",
-      "userMob": "9860908859",
-      "userPass": "12345678"
+      "Email": "santosg@12gamil.com",
+      "Gender": "male",
+      "Mobilenumber": "9860908859",
+      "Password": "12345678"
     },
     {
       "id": 4,
@@ -44,20 +44,153 @@
       "gender": "male",
       "userMob": "9860908859",
       "userPass": "12345678"
+    },
+    {
+      "Firstname": "Mayuri",
+      "Lastname": "Khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9876542390",
+      "Password": "mk@123",
+      "id": 6
+    },
+    {
+      "Firstname": "mayuri",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mk@123",
+      "id": 7
+    },
+    {
+      "Firstname": "mayuri ",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mk@123",
+      "id": 8
+    },
+    {
+      "Firstname": "mayuri ",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mk@123",
+      "id": 9
+    },
+    {
+      "Firstname": "Mayuri",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mk@123",
+      "id": 10
+    },
+    {
+      "Firstname": "mayuri ",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mk@123",
+      "id": 11
+    },
+    {
+      "Firstname": "SHANTARAM",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Male",
+      "Mobilenumber": "9137139042",
+      "Password": "sk@1234",
+      "id": 12
+    },
+    {
+      "Firstname": "SHANTARAM",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "mk@123",
+      "id": 13
+    },
+    {
+      "Firstname": "Satish",
+      "Lastname": "Kale",
+      "Email": "stish123@gmail.com",
+      "Gender": "Male",
+      "Mobilenumber": "9867502443",
+      "Password": "ak@1234",
+      "id": 14
+    },
+    {
+      "Firstname": "satish ",
+      "Lastname": "kale",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Male",
+      "Mobilenumber": "9137139042",
+      "Password": "ak@123",
+      "id": 15
+    },
+    {
+      "Firstname": "Survana",
+      "Lastname": "Unde",
+      "Email": "sv345@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9865402390",
+      "Password": "av@123",
+      "id": 16
+    },
+    {
+      "Firstname": "priyansh",
+      "Lastname": "patil",
+      "Email": "pk20170218@gmail.com ",
+      "Gender": "Male",
+      "Mobilenumber": "8765432390",
+      "Password": "pk@123",
+      "id": 17
+    },
+    {
+      "Firstname": "Akshay",
+      "Lastname": "Khose",
+      "Email": "pk20170218@gmail.com ",
+      "Gender": "Male",
+      "Mobilenumber": "9866407766",
+      "Password": "ak@123",
+      "id": 18
+    },
+    {
+      "Firstname": "mayuri",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9876450923",
+      "Password": "mk@123",
+      "id": 19
+    },
+    {
+      "Firstname": "mayuri",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137239042",
+      "Password": "mk@123",
+      "id": 20
+    },
+    {
+      "Firstname": "harish",
+      "Lastname": "khose",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Male",
+      "Mobilenumber": "9765437890",
+      "Password": "mk@123",
+      "id": 21
     }
   ],
   "hotel": [
-    {
-      "userName": "Varun Dhavan",
-      "hotelName": "Royal King",
-      "hotelAddress": "Sanbhajinagar",
-      "hotelMobile": "8787878787",
-      "hotelMenu": "Snacks",
-      "roomAvailable": "12",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 1
-    },
     {
       "userName": "Sachin Shinde",
       "hotelName": "Oscarwadi",
@@ -196,19 +329,37 @@
       "id": 1,
       "FirstName": "santosh",
       "LastName": "Mulay",
-      "userEmail": "santosg@12gamil.com",
-      "gender": "male",
-      "userMob": "9860908859",
-      "userPass": "12345678"
+      "Email": "santosg@12gamil.com",
+      "Gender": "male",
+      "Mobilenumber": "9860908859",
+      "Password": "12345678"
     },
     {
       "id": 2,
       "FirstName": "Sujata",
       "LastName": "Mulay",
-      "userEmail": "santosg@12gamil.com",
+      "Email": "santosg@12gamil.com",
       "gender": "male",
-      "userMob": "9860908859",
-      "userPass": "12345678"
+      "Mobilenumber": "9860908859",
+      "Password": "12345678"
+    },
+    {
+      "Firstname": "mayuri",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9137139042",
+      "Password": "ak@123",
+      "id": 3
+    },
+    {
+      "Firstname": "mayuri",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Female",
+      "Mobilenumber": "9135467890",
+      "Password": "mk@123",
+      "id": 4
     }
   ],
   "user": [
@@ -216,10 +367,10 @@
       "id": 1,
       "FirstName": "Ajay",
       "LastName": "Mulay",
-      "userEmail": "santosg@12gamil.com",
-      "gender": "male",
-      "userMob": "9860908859",
-      "userPass": "12345678"
+      "Email": "santosg@12gamil.com",
+      "Gender": "male",
+      "Mobilenumber": "9860908859",
+      "Password": "12345678"
     },
     {
       "id": 2,
@@ -490,6 +641,177 @@
       "Mobilenumber": "9137139042",
       "Password": "mayur",
       "id": 31
+    },
+    {
+      "Firstname": "Akshay",
+      "Lastname": "Khose",
+      "Email": "pk20170218@gmail.com ",
+      "Gender": "Male",
+      "Mobilenumber": "7798407766",
+      "Password": "ak@123",
+      "id": 32
+    },
+    {
+      "userName": "mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 33
+    },
+    {
+      "userName": "mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 34
+    },
+    {
+      "userName": "mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 35
+    },
+    {
+      "userName": "mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 36
+    },
+    {
+      "userName": "mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 37
+    },
+    {
+      "userName": "mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 38
+    },
+    {
+      "userName": "mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 39
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 40
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 41
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 42
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 43
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 44
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 45
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 46
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 47
+    },
+    {
+      "userName": "Mayuri",
+      "userMob": "9137139042",
+      "userEmail": "mayurimulay789@gmail.com",
+      "userPass": "mk@123",
+      "gender": "female",
+      "userCheck": true,
+      "id": 48
+    },
+    {
+      "Firstname": "SHANTARAM",
+      "Lastname": "mulay",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Male",
+      "Mobilenumber": "7654296799",
+      "Password": "ak@1234",
+      "id": 49
+    },
+    {
+      "Firstname": "satish",
+      "Lastname": "kale",
+      "Email": "mayurimulay789@gmail.com",
+      "Gender": "Male",
+      "Mobilenumber": "9988706662",
+      "Password": "ak@123",
+      "id": 50
     }
   ],
   "hotelbooking": [

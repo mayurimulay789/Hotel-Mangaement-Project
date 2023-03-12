@@ -8,6 +8,10 @@ import { UserSignUpComponent } from './user-sign-up/user-sign-up.component';
 import { ViewHotelsComponent } from './view-hotels/view-hotels.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { UserSucessComponent } from './user-sucess/user-sucess.component';
+import { UserfailComponent } from './userfail/userfail.component';
+import { HotelbookingComponent } from './hotelbooking/hotelbooking.component';
+
 
 
 @NgModule({
@@ -16,10 +20,17 @@ import { HttpClientModule } from '@angular/common/http';
     UserSignInComponent,
     UserSignUpComponent,
     ViewHotelsComponent,
+    UserSucessComponent,
+    UserfailComponent,
+    HotelbookingComponent,
+
   ],
   imports: [
     CommonModule,
-    UserRoutingModule,FormsModule,ReactiveFormsModule,HttpClientModule
+    UserRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ]
 })
 export class UserModule { }

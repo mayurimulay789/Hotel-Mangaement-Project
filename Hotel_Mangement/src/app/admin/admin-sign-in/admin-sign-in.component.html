@@ -1,0 +1,18 @@
+<div class="container">
+    <button routerLink="/admin">Back</button>
+    <div class="main">
+        <h1 style="text-align: center;">Login</h1><br>
+    
+    <form [formGroup]="Admindataform" autocomplete="off">
+    <input type="text"class='sw'  formControlName="Email" placeholder="Enter Your Email"><br>
+    <span class="km" *ngIf="Admindataform.get('Email')?.touched && Admindataform.hasError('required')">enter correct email Id</span><br>
+    
+    <input type="password"class='sw' formControlName="Password" Placeholder= "Enter Your Password"><br>
+    <span  class='km'*ngIf="Admindataform.get('Password')?.touched && Admindataform.hasError('required')">enter valid password</span>
+    
+    <button type="submit" [disabled]="Admindataform.invalid"class="button" style="text-align: center" (click)="submitdata(this.Admindataform.value)">Login</button><br>
+    
+    <p class="mak">New User?<a routerLink="/admin-sign-up"style="color: rgb(26, 3, 76)" > Register Now</a></p><br>
+    </form> 
+    </div> 
+    </div>

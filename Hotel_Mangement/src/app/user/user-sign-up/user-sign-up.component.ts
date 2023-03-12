@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { FormBuilder,FormGroup, MaxLengthValidator, Validators } from "@angular/forms";
+import { FormBuilder,FormGroup, Validators } from "@angular/forms";
+import { Router } from '@angular/router';
 import { UsersdataService } from 'src/app/services/usersdata.service';
 
 @Component({
@@ -9,7 +10,7 @@ import { UsersdataService } from 'src/app/services/usersdata.service';
 })
 export class UserSignUpComponent {
   Custdata! :FormGroup;
-constructor(private fb:FormBuilder,private userdata:UsersdataService){
+constructor(private fb:FormBuilder,private userdata:UsersdataService,private route:Router){
 
 }
 ngOnInit() {
@@ -26,11 +27,14 @@ Mobilenumber:['' ,[Validators.required,Validators.minLength(10)]],
 Password:['',[Validators.required]],
 })
  }
+
  saveuser(value:any){
-console.log(value);
-this.userdata.saveuser(value).subscribe((result)=>{
+ console.log(value);
+//postapi
+this.userdata.PostUserCall(value).subscribe((result)=>{
   console.log(result);
-  
 })
- }
+ alert("Your account created Sucessfully");
+ this.route.navigateByUrl("/user-sign-in")
+}
 }

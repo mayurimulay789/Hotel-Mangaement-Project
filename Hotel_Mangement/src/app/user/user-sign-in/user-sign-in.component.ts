@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder,FormGroup,Validators } from '@angular/forms';
+import { Route, Router } from '@angular/router';
 import { UsersdataService } from 'src/app/services/usersdata.service';
 
 @Component({
@@ -10,30 +12,41 @@ import { UsersdataService } from 'src/app/services/usersdata.service';
 export class UserSignInComponent {
   userdataform!:FormGroup
   users:any;
-constructor(private fb:FormBuilder,private userdata:UsersdataService){
-this.userdata.users().subscribe((data)=>{
-  // const user = data.find((a:any)=>{
-    console.log(data);
-    
-  })
-  
+constructor(private fb:FormBuilder,private userdata:UsersdataService,private http:HttpClient , private route:Router){
+
 }
- 
-
-
-
-
 ngOnInit(){
-  this.datavalidator()
+this.formvalidators()
 }
-datavalidator(){
+formvalidators(){
 this.userdataform=this.fb.group({
-Email:['' ,[Validators.required]],
-Password:['',[Validators.required]]
+Email:['',[Validators.required]],
+Password:['',[Validators.required]],
+})  
+}
+
+sumbitformdata(data:any){
+  console.log(data);
+  
+this.http.get<any>('http://localhost:3000/user').subscribe(result=>{
+  const user=result.find((pes:any)=>{
+    return pes.Email===this.userdataform.value.Email && pes.Password===this.userdataform.value.Password
+  })
+  if(user){
+    alert("Login successful");
+    this.userdataform.reset();
+    this.route.navigateByUrl('user-sucess')
+  }
+  else{
+    alert("user not found")
+    this.userdataform.reset();
+    this.route.navigateByUrl('userfail')
+  }
+
+
+
+
 })
 }
-sumbitformdata(data:string){
-console.log(data);
+ }
 
-}
-}

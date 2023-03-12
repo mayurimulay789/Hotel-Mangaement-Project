@@ -1,6 +1,10 @@
 <div class="main">
-    <button class="sw" routerLink="/landing">Back</button>
-
-    <button class="sw" routerLink="/view-hotels">View Hotels</button>
+    <button class="sw" (click)="back()" routerLink="/landing">Back</button>
+<br>
+    <button class="mw" (click)="viewhotels()"  routerLink="/view-hotels">View Hotels</button>
     <br>
+    <button class="kw" (click)="signup()" routerLink="/admin-sign-up">Sign Up</button>
+    <br>
+   <button class="bw" (click)="signin()" routerLink="/admin-sign-in">Sign In</button>
+<br>
 </div>

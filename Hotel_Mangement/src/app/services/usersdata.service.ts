@@ -5,12 +5,38 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UsersdataService {
-url='http://localhost:3000/user'
+
+
+  userurl='http://localhost:3000/user'
+adminurl='http://localhost:3000/admin'
+ownerUrl ='http://localhost:3000/owner'
   constructor(private http:HttpClient) { }
-users(){
-  return this.http.get(this.url)
+  //getapi
+GetUserCall(){
+  return this.http.get(this.userurl)
 }
-saveuser(data:any){
-  return this.http.post(this.url,data)
+//postapi
+PostUserCall(data:any){
+  return this.http.post(this.userurl,data)
 }
+
+//getapi
+GetAdminCall(){
+ return this.http.get(this.adminurl)
+}
+//postapi
+PostAdminCall(data:any){
+ return this.http.post(this.adminurl,data)
+}
+//postapi
+PostOwnerCall(data:any){
+return this.http.post(this.ownerUrl,data)
+}
+
+//getapi
+GetOwnerCall(){
+ return this.http.get(this.ownerUrl);
+}
+
+
 }
