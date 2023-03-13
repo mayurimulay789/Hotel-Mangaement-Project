@@ -190,20 +190,20 @@
       "id": 21
     }
   ],
-  "hotel": [
+  "hotelDetails": [
     {
       "userName": "Sachin Shinde",
       "hotelName": "Oscarwadi",
-      "hotelAddress": "Munbai",
+      "hotelAddress": "Mumbai",
       "hotelMobile": "8787878787",
       "hotelMenu": "Uttapas",
       "roomAvailable": "07",
       "owenrCheck": true,
       "userPass": "12345678",
-      "id": 2
+      "id": 1
     },
     {
-      "userName": "Akshay Kumar",
+      "userName": "Suresh Kale",
       "hotelName": "Paradise",
       "hotelAddress": "Nashik",
       "hotelMobile": "8787878787",
@@ -211,41 +211,9 @@
       "roomAvailable": "10",
       "owenrCheck": true,
       "userPass": "12345678",
-      "id": 3
+      "id": 2
     },
-    {
-      "userName": "Hardik Pandey",
-      "hotelName": "Dharmaraj",
-      "hotelAddress": "Maval,Pune",
-      "hotelMobile": "8787878787",
-      "hotelMenu": "Hot Beverages",
-      "roomAvailable": "07",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 4
-    },
-    {
-      "userName": "Sachin Mulak",
-      "hotelName": "Jagdanb",
-      "hotelAddress": "Paithan",
-      "hotelMobile": "8787878787",
-      "hotelMenu": "Rice",
-      "roomAvailable": "07",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 5
-    },
-    {
-      "userName": "Sachin Tendulkar",
-      "hotelName": "Jagdanb",
-      "hotelAddress": "Munbai",
-      "hotelMobile": "8787878787",
-      "hotelMenu": "Fish Pulav",
-      "roomAvailable": "07",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 6
-    },
+    
     {
       "userName": "Vijay Shinde",
       "hotelName": "Rajveer",
@@ -255,73 +223,7 @@
       "roomAvailable": "03",
       "owenrCheck": true,
       "userPass": "12345678",
-      "id": 7
-    },
-    {
-      "userName": "Pravin Shinde",
-      "hotelName": "5 star",
-      "hotelAddress": "Ahmadnagar",
-      "hotelMobile": "9860908876",
-      "hotelMenu": "Paneer",
-      "roomAvailable": "10",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 8
-    },
-    {
-      "userName": "Prathmesh Patil",
-      "hotelName": "7 star",
-      "hotelAddress": "Pune",
-      "hotelMobile": "9860908876",
-      "hotelMenu": "Paneer Tikka",
-      "roomAvailable": "10",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 9
-    },
-    {
-      "userName": "Yogesh Tade",
-      "hotelName": "samarth",
-      "hotelAddress": "Pategaon",
-      "hotelMobile": "9860908876",
-      "hotelMenu": "Rice",
-      "roomAvailable": "10",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 10
-    },
-    {
-      "userName": "Pravin Shinde",
-      "hotelName": "5 star",
-      "hotelAddress": "Ahmadnagar",
-      "hotelMobile": "9860908876",
-      "hotelMenu": "Paneer",
-      "roomAvailable": "10",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 11
-    },
-    {
-      "userName": "Abhijeet Malkapure",
-      "hotelName": "Hotel Plasa",
-      "hotelAddress": "Malkapur",
-      "hotelMobile": "9860908859",
-      "hotelMenu": "Rice",
-      "roomAvailable": "09",
-      "owenrCheck": true,
-      "userPass": "12121212",
-      "id": 12
-    },
-    {
-      "userName": "Anushka",
-      "hotelName": "AnshRaj Hotel",
-      "hotelAddress": "Nepti Naka ,Beed.",
-      "hotelMobile": "9832983888",
-      "hotelMenu": "Dal Tadka",
-      "roomAvailable": "02",
-      "owenrCheck": true,
-      "userPass": "12312312",
-      "id": 13
+      "id": 3
     }
   ],
   "owner": [

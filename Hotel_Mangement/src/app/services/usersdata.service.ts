@@ -10,6 +10,10 @@ export class UsersdataService {
   userurl='http://localhost:3000/user'
 adminurl='http://localhost:3000/admin'
 ownerUrl ='http://localhost:3000/owner'
+hotelurl = 'http://localhost:3000/hotelDetails'
+
+postapidata:any
+dataId:any
   constructor(private http:HttpClient) { }
   //getapi
 GetUserCall(){
@@ -37,6 +41,16 @@ return this.http.post(this.ownerUrl,data)
 GetOwnerCall(){
  return this.http.get(this.ownerUrl);
 }
-
-
+// gethotel details
+GetHotelDetails(){
+  return this.http.get(this.hotelurl);
+}
+DeleteHotelData(ID:any){
+  return this.http.delete(this.hotelurl + "/" , ID)
+}
+//deleteapi
+ DeleteOwnerCall(Id:any){
+return this.http.delete(this.hotelurl + "/" , Id)
+ }
+ 
 }

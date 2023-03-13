@@ -9,10 +9,11 @@ import { ViewHotelsComponent } from './view-hotels/view-hotels.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UserSucessComponent } from './user-sucess/user-sucess.component';
-import { UserfailComponent } from './userfail/userfail.component';
 import { HotelbookingComponent } from './hotelbooking/hotelbooking.component';
+import { MatIconModule } from "@angular/material/icon";
 
-
+import { SharedModule } from '../shared/shared.module';
+import { HotelList1Component } from './hotel-list1/hotel-list1.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,9 @@ import { HotelbookingComponent } from './hotelbooking/hotelbooking.component';
     UserSignUpComponent,
     ViewHotelsComponent,
     UserSucessComponent,
-    UserfailComponent,
     HotelbookingComponent,
+    HotelList1Component
+  
 
   ],
   imports: [
@@ -30,7 +32,9 @@ import { HotelbookingComponent } from './hotelbooking/hotelbooking.component';
     UserRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatIconModule,
+    SharedModule
   ]
 })
 export class UserModule { }

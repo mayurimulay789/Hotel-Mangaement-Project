@@ -12,14 +12,14 @@ export class UserComponent {
 
   }
   signin(){
-this.router.navigateByUrl("/user-sign-in")
+this.router.navigateByUrl("/user/user-sign-in")
   }
   signup(){
-    this.router.navigateByUrl("/user-sign-up")
+    this.router.navigateByUrl("/user/user-sign-up")
 
   }
   viewhotels(){
-    this.router.navigateByUrl("/view-hotels")
+    this.router.navigateByUrl("/user/view-hotels")
   }
   back(){
     this.router.navigateByUrl("/landing")

@@ -1,1 +1,31 @@
-<p>hotel-list works!</p>
+<button class="sw" routerLink="/owner">Back</button>
+ <div class="main">
+<h1>Hotel List</h1>
+<table border="2px" black>
+<thead *ngIf="flag">
+    <tr>
+            <th>Id</th>
+            <th>Owner Name</th>
+            <th>Hotel Name</th>
+            <th>Menu</th>
+            <th>Room Available</th>
+            <th>Hotel Address</th>
+            <th>Hotel Mobile</th>
+            <th>Delete</th>
+            <th>Edit</th>
+    </tr>
+</thead>
+
+<tr *ngFor = "let data of apidata">
+    <td>{{data.id}}</td>
+            <td>{{data.userName}}</td>
+            <td>{{data.hotelName}}</td>
+            <td>{{data.hotelMenu}}</td>
+            <td>{{data.roomAvailable}}</td>
+            <td>{{data.hotelAddress}}</td>
+            <td>{{data.hotelMobile}}</td>
+            <td><mat-icon  style="color:red;"(click)="deleteData(data.id)">delete</mat-icon></td>
+            <td><mat-icon style="color: blue;"(click)="editData(data.id)">create</mat-icon></td>
+</tr>
+</table>
+</div>

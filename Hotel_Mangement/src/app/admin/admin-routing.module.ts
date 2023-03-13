@@ -6,6 +6,7 @@ import { AdminSignInComponent } from './admin-sign-in/admin-sign-in.component';
 import { AdminSignUpComponent } from './admin-sign-up/admin-sign-up.component';
 import { AdminSucessComponent } from './admin-sucess/admin-sucess.component';
 import { AdminComponent } from './admin.component';
+import { HotelListComponent } from './hotel-list/hotel-list.component';
 import { ViewHotelsComponent } from './view-hotels/view-hotels.component';
 
 const routes: Routes = [{ path: '', component: AdminComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [{ path: '', component: AdminComponent },
 {path:'admin-sign-up',component:AdminSignUpComponent},
 {path:'admin-sign-in',component:AdminSignInComponent},
 {path:'admin-sucess',component:AdminSucessComponent},
-{path:'admin-fail',component:AdminFailComponent}
+{path:'admin-fail',component:AdminFailComponent},
+{path:'hotel-list',component:HotelListComponent}
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],

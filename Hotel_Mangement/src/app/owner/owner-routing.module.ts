@@ -1,9 +1,11 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HotelListComponent } from './hotel-list/hotel-list.component';
 import { NewHotelRegistrationComponent } from './new-hotel-registration/new-hotel-registration.component';
+import { OwnerFailComponent } from './owner-fail/owner-fail.component';
 import { OwnerSignInComponent } from './owner-sign-in/owner-sign-in.component';
 import { OwnerSignUpComponent } from './owner-sign-up/owner-sign-up.component';
+import { OwnerSucessComponent } from './owner-sucess/owner-sucess.component';
 import { OwnerComponent } from './owner.component';
 
 const routes: Routes = [{ path: '', component: OwnerComponent },
@@ -11,7 +13,10 @@ const routes: Routes = [{ path: '', component: OwnerComponent },
 {path:'owner-sign-up',component:OwnerSignUpComponent},
 {path:'owner-sign-in',component:OwnerSignInComponent},
 {path:'hotel-list',component:HotelListComponent},
-{path:'new-hotel-registration',component:NewHotelRegistrationComponent}]
+{path:'new-hotel-registration',component:NewHotelRegistrationComponent},
+{path:'owner-sucess',component:OwnerSucessComponent},
+{path:'owner-fail',component:OwnerFailComponent}
+]
 @NgModule({
 imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]

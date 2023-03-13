@@ -39,7 +39,7 @@ this.http.get<any>('http://localhost:3000/admin').subscribe(result=>{
   else{
     alert('User Not Found')
     this.Admindataform.reset();
-    this.route.navigateByUrl('/admin-fail')
+    this.route.navigateByUrl('/admin-sign-in')
   }
 }
 )}

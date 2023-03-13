@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AdminRoutingModule } from './admin-routing.module';
@@ -11,8 +11,7 @@ import { AdminFailComponent } from './admin-fail/admin-fail.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HotelListComponent } from './hotel-list/hotel-list.component';
-
-
+import { MatIconModule } from "@angular/material/icon";
 
 
 @NgModule({
@@ -29,8 +28,9 @@ import { HotelListComponent } from './hotel-list/hotel-list.component';
     CommonModule,
     AdminRoutingModule,
     FormsModule,
-  ReactiveFormsModule,
-  HttpClientModule
+   ReactiveFormsModule,
+   HttpClientModule,
+   MatIconModule
   ],
 })
 export class AdminModule { }

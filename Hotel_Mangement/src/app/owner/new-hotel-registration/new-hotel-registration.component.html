@@ -1,1 +1,35 @@
-<p>new-hotel-registration works!</p>
+ 
+ <button routerLink="/owner">Back</button>
+ <div class="main">
+<h1> Register here !!!!</h1>
+<form [formGroup]="Registrationform">
+
+<label >Owner Name</label>
+<input type="text" formControlName="username" placeholder="Enter Your Name">
+ <label > Mobile Number</label>
+ <input type="text" formControlName="userMobilenumber" placeholder="enter Your Mobile Number">
+
+ <label >Hotel Name</label>
+<input type="text" formControlName="hotelName" placeholder="Enter Hotel Name">
+
+<label for="">Hotel Address</label>
+<input type="text" formControlName="hotel address" placeholder="Enter Hotel Address">
+
+<label for="">Hotel Mobile Number</label>
+<input type="text" formControlName="hotelMobile" placeholder="Enter Hotel MobileNumber" >
+
+<label for="">Hotel Menu</label>
+<input type="text" formControlName="hotelMenu" placeholder="Enter Hotel Menu ">
+ 
+
+<label for="">Room Available</label>
+<input type="text" formControlName="roomAvailible" placeholder="enter Room No ">
+
+<label for="">Enter Password</label>
+<input type="text" formControlName="userpass" placeholder="Enter Password">
+<label >
+<input type="checkbox" formControlName="ownercheck" required>Accept tc & Cs
+</label>
+<button (click)="Submitdata(Registrationform.value)"></button>
+</form>
+ </div>

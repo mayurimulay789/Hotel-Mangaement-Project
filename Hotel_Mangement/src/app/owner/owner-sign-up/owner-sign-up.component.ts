@@ -29,7 +29,7 @@ submitdata(data:any){
 console.log(result);
   })
   alert('Your Account Created Sucessfully')
-  this.route.navigateByUrl('/owner-sign-in')
+  this.route.navigateByUrl('/owner-sucess')
 
 }
 }

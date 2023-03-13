@@ -40,7 +40,7 @@ this.http.get<any>('http://localhost:3000/user').subscribe(result=>{
   else{
     alert("user not found")
     this.userdataform.reset();
-    this.route.navigateByUrl('userfail')
+    this.route.navigateByUrl('/user-sign-in')
   }
 
 

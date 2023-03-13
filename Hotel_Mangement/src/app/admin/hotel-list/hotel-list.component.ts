@@ -9,10 +9,22 @@ import { UsersdataService } from 'src/app/services/usersdata.service';
 })
 export class HotelListComponent {
 apidata:any;
-constructor(private router:Router,userdata:UsersdataService){
+constructor(private router:Router, private userdata:UsersdataService){
 this.SucessValidator()
 }
+//getapi
 SucessValidator(){
-this.apidata=
+this.userdata.GetHotelDetails().subscribe((data)=>{
+this.apidata=data;
+console.log(this.apidata);
+})
+}
+//deleteapi
+deleteData(id:any){
+this.userdata.DeleteHotelData(id).subscribe((result)=>{
+this.apidata=result;
+console.log(this.apidata);
+
+})
 }
 }

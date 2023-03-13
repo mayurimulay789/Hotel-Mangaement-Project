@@ -25,17 +25,17 @@ console.log(data);
 //getapi
 this.http.get<any>('http://localhost:3000/owner').subscribe(res=>{
   const owner = res.find((result:any)=>{
- return result.Email===this.ownerform.value.Email && result.Password===this.ownerform.value.Password
+ return result.Email === this.ownerform.value.Email && result.Password === this.ownerform.value.Password
   })
   if(owner){
     alert('Login Sucessfully');
     this.ownerform.reset();
-    this.router.navigateByUrl('owner-sucess')
+    this.router.navigateByUrl('/owner-sucess')
   }
 else{
   alert('User Not Found')
   this.ownerform.reset();
-  this.router.navigateByUrl('owner-fail')
+  this.router.navigateByUrl('/owner-sign-in')
 }
 }
 )}

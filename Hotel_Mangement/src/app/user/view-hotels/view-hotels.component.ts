@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-view-hotels',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./view-hotels.component.scss']
 })
 export class ViewHotelsComponent {
-
+ constructor(private router:Router){
+  
+ }
+ hotellist(){
+  this.router.navigateByUrl('/user/hotel-list1')
+ }
 }

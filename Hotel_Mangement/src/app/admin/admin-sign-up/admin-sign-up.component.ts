@@ -33,7 +33,7 @@ this.userdata.PostAdminCall(value).subscribe((res)=>{
 console.log(res);
 })
 alert("your account Created Sucessfully")
-this.route.navigateByUrl('/admin-sign-in')
+this.route.navigateByUrl('/admin-sucess')
 }
 }
 

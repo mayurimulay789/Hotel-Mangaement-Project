@@ -11,7 +11,7 @@ import { OwnerSucessComponent } from './owner-sucess/owner-sucess.component';
 import { OwnerFailComponent } from './owner-fail/owner-fail.component';
 import { NewHotelRegistrationComponent } from './new-hotel-registration/new-hotel-registration.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     OwnerRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatIconModule
   ]
 })
 export class OwnerModule { }

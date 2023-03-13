@@ -8,11 +8,17 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { OwnerModule } from './owner/owner.module';
 import { UserModule } from './user/user.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule  } from "@angular/material/icon";
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    
+
   ],
   imports: [
     BrowserModule,
@@ -21,7 +27,10 @@ import { UserModule } from './user/user.module';
     AdminModule,
     OwnerModule,
     UserModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
