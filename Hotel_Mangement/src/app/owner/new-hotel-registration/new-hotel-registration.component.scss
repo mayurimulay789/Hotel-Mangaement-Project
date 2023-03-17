@@ -1,0 +1,63 @@
+.container {
+    background-image: url('~src/assets/hotel img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.sg {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #170a49;
+    color: antiquewhite;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.bg {
+    color: red;
+}
+
+.main {
+    text-align: center;
+    border: none;
+    width: 300px;
+    height: 650px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(45, 171, 28);
+    background: linear-gradient(90deg, #edfdee 0%, rgb(227, 185, 199)100%);
+}
+
+.input-box {
+    border-radius: 15px;
+    padding: 7px;
+    margin: 6px 0;
+    width: 90%;
+    border: 1px solid;
+    outline: none;
+}
+
+.button {
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 50%;
+    background: #d8d5e3;
+    border-top: 1px;
+    color: #170a49;
+}

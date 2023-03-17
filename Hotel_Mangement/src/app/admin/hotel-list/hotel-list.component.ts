@@ -20,11 +20,8 @@ console.log(this.apidata);
 })
 }
 //deleteapi
-deleteData(id:any){
-this.userdata.DeleteHotelData(id).subscribe((result)=>{
-this.apidata=result;
-console.log(this.apidata);
+ async   deleteData(id:any){
+  this.apidata = await this.userdata.DeleteHotelData(id).toPromise
 
-})
 }
 }

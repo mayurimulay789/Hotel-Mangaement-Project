@@ -9,15 +9,21 @@ import { UsersdataService } from 'src/app/services/usersdata.service';
 })
 export class HotelList1Component {
 searchText:any='';
-apidata1:any
-constructor(private router:Router,private userdata:UsersdataService){
-this.DataValidator()
+apidata1:any;
+
+constructor(private userdata:UsersdataService){
+
+}
+ngOnInit(){
+  this.DataValidator()
 }
 DataValidator(){
 this.userdata.GetHotelDetails().subscribe((data)=>{
-  this.apidata1=data;
-  console.log(data);
+ this.apidata1= data
+ console.log(this.apidata1);
+ 
 })
+
 }
 
 }

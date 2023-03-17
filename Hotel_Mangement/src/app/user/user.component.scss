@@ -1,15 +1,70 @@
+.main {
+    background-image: url('~src/assets/guest7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: montserrat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 
-    .main{
-        background-image: url('~src/assets/guest7.jpg');
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
-        font-family: montserrat;
-        width: 100%;
-        height: 100%;
-        position:absolute;
-    }
-    .sw{
-        margin-left: 15px;
-        
-    }
+.sw {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #500a34;
+    color: antiquewhite;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+
+.sg {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #0a445f;
+    color: antiquewhite;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+
+.sp {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #5a121c;
+    color: antiquewhite;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+
+.sk {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #180837;
+    color: antiquewhite;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}

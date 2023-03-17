@@ -1,0 +1,48 @@
+
+  .container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #070d12;
+    
+  }
+
+  .search-hero {
+    width: 1000px;
+    padding-bottom: 50px;
+    margin:auto;
+  }
+  
+  .form-control {
+    box-shadow: 0 10px 40px 0 #f0b5e6;
+    width:  px;
+  }
+  .form-control::placeholder  {
+    font-family: sans-serif;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .sk{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #7b5db7;
+    color: antiquewhite;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+    margin-left: 15px;
+    border-radius: 5px;  
+  }

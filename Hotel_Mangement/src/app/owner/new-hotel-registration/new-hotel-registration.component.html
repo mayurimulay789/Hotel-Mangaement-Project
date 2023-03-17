@@ -1,35 +1,50 @@
- 
- <button routerLink="/owner">Back</button>
+<div class="container"> 
+ <button class="sg" routerLink="/owner">Back</button>
  <div class="main">
-<h1> Register here !!!!</h1>
+<h1>Registrationform</h1>
 <form [formGroup]="Registrationform">
 
 <label >Owner Name</label>
-<input type="text" formControlName="username" placeholder="Enter Your Name">
+<input type="text" class="input-box" formControlName="userName" placeholder="Enter Your Name"><br>
+<span  class="bg" *ngIf="Registrationform.get('userName')?.touched && Registrationform.get('userName')?.hasError('required')">enter correct Name </span>
+
+
  <label > Mobile Number</label>
- <input type="text" formControlName="userMobilenumber" placeholder="enter Your Mobile Number">
+ <input type="text" class="input-box" formControlName="hotelMobile" placeholder="Enter Your Mobile Number">
+ <span *ngIf="Registrationform.get('hotelMobile')?.touched && Registrationform.get('userMobilenumber')?.hasError('required')">enter correct mobile number </span>
 
  <label >Hotel Name</label>
-<input type="text" formControlName="hotelName" placeholder="Enter Hotel Name">
+<input type="text" class="input-box" formControlName="hotelName" placeholder="Enter Hotel Name">
+<span *ngIf="Registrationform.get('hotelName')?.touched && Registrationform.get('hotelName')?.hasError('required')"> enter hotel name</span>
+
 
 <label for="">Hotel Address</label>
-<input type="text" formControlName="hotel address" placeholder="Enter Hotel Address">
+<input type="text" class="input-box" formControlName="hotelAddress" placeholder="Enter Hotel Address">
+<span *ngIf="Registrationform.get('hotelAddress')?.touched && Registrationform.get('hotelAddress')?.hasError('required')">enter hotel address </span>
+
 
 <label for="">Hotel Mobile Number</label>
-<input type="text" formControlName="hotelMobile" placeholder="Enter Hotel MobileNumber" >
+<input type="text" class="input-box"  formControlName="hotelMobile" placeholder="Enter Hotel Mobile Number" >
+<span *ngIf="Registrationform.get('hotelMobile')?.touched && Registrationform.get('hotelMobile')?.hasError('required')"> Enter Correct mobile number</span>
 
 <label for="">Hotel Menu</label>
-<input type="text" formControlName="hotelMenu" placeholder="Enter Hotel Menu ">
+<input type="text" class="input-box" formControlName="hotelMenu" placeholder="Enter Hotel Menu ">
+<span *ngIf="Registrationform.get('hotelMenu')?.touched && Registrationform.get('hotelMenu')?.hasError('required')">enter hotel menu eg.Pizza </span>
  
 
 <label for="">Room Available</label>
-<input type="text" formControlName="roomAvailible" placeholder="enter Room No ">
+<input type="text" class="input-box" formControlName="roomAvailable" placeholder="Enter Room Number ">
+<span *ngIf="Registrationform.get('roomAvailable')?.touched && Registrationform.get('roomAvailable')?.hasError('required')">enter correct room number </span>
 
 <label for="">Enter Password</label>
-<input type="text" formControlName="userpass" placeholder="Enter Password">
-<label >
-<input type="checkbox" formControlName="ownercheck" required>Accept tc & Cs
-</label>
-<button (click)="Submitdata(Registrationform.value)"></button>
+<input type="text" class="input-box" formControlName="userPass" placeholder="Enter Password">
+<span *ngIf="Registrationform.get('userPass')?.touched && Registrationform.get('userPass')?.hasError('required')">Enter correct Password </span>
+
+<label ><br>
+<input type="checkbox" class="input-box" formControlName="ownerCheck" required>Accept tc & Cs 
+</label><br>
+
+<button  class="button" [disabled]="Registrationform.invalid" (click)="Submitdata(Registrationform.value)">Submit</button>
 </form>
  </div>
+</div>

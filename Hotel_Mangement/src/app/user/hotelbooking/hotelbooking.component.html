@@ -1,1 +1,27 @@
-<p>hotelbooking works!</p>
+<div class="container">
+    <button class="bk" routerLink="/hotel-list1">Back</button>
+    <div class="main">
+        <h1>Booking Now</h1>
+        <h4>Register Yourself!!!!</h4>
+        <form [formGroup]="bookingform">
+            <label>Enter Name</label><br>
+            <input type="text" class="input-box" formControlName="username" placeholder="Enter Your Name"><br>
+    <span class="bg"  *ngIf="bookingform.get('username')?.touched  && bookingform.get('username')?.hasError('required')">Enter correct username</span><br>
+
+            <label>Enter Address </label><br>
+            <input type="text" class="input-box" formControlName="userAddress" placeholder="Enter Hotel Address"><br>
+            <span class="bg"  *ngIf="bookingform.get('userAddress')?.touched  && bookingform.get('userAddress')?.hasError('required')">Enter correct Hotel Address </span><br>
+
+
+            <label for="">Booking Amount</label><br>
+            <input type="text" class="input-box" formControlName="bookingAmount" placeholder="Pay boking Charges min 1000 rs"><br>
+            <span class="bg"  *ngIf="bookingform.get('bookingAmount')?.touched  && bookingform.get('bookingAmount')?.hasError('required')">Enter correct booking amount</span><br>
+
+            <label for="">Enter Password</label><br>
+            <input type="text" class="input-box" formControlName="userpass" placeholder="Enter Password"><br>
+            <span class="bg"  *ngIf="bookingform.get('userpass')?.touched  && bookingform.get('userpass')?.hasError('required')">Enter correct password</span><br>
+
+            <button  class="button" [disabled]="bookingform.invalid" (click)="postHotelBookingdata(bookingform.value)">Submit</button><br>
+        </form>
+    </div>
+</div>

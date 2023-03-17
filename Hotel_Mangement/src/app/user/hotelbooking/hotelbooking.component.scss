@@ -1,0 +1,64 @@
+.container{
+    background-image: url('~src/assets/happcu.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.main{
+    text-align: center;
+    border: none;
+    width: 300px;
+    height: 520px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgb(45, 171, 28);
+    background: linear-gradient(90deg,#edfdee 0%,rgb(227, 185, 199)100%);
+    }
+    .bg{
+    color: red;
+    }
+        .input-box{
+        border-radius: 50px;
+        padding: 7px;
+        margin: 7px 0;
+        width: 90%;
+        border: 1px solid;
+        outline: none;
+        }
+        .button{
+            font-size: 1.2rem;
+            margin-top: 1.8rem;
+            padding: 10px 0;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            width: 92%;
+            background: #d8d5e3;
+            border-top: 1px;
+        }
+        .sign-up{
+        background-color: #0d0a51;
+        }
+        .button:hover{
+            background: #1f1991;
+        }
+        .bk{
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+            font-family: sans-serif;
+            background-color: #180837;
+            color: antiquewhite;
+            border: 0;
+            margin-top: 20px;
+            box-shadow: 2px 2px lightgray;
+            margin-left: 15px;
+            border-radius: 5px;  
+        }
+  

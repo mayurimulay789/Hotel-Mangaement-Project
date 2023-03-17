@@ -11,9 +11,10 @@ export class UsersdataService {
 adminurl='http://localhost:3000/admin'
 ownerUrl ='http://localhost:3000/owner'
 hotelurl = 'http://localhost:3000/hotelDetails'
-
+hotelbooking='http://localhost:3000/hotelbooking'
 postapidata:any
 dataId:any
+newRegistration:any
   constructor(private http:HttpClient) { }
   //getapi
 GetUserCall(){
@@ -45,12 +46,24 @@ GetOwnerCall(){
 GetHotelDetails(){
   return this.http.get(this.hotelurl);
 }
+//delete api
 DeleteHotelData(ID:any){
-  return this.http.delete(this.hotelurl + "/" , ID)
+  return this.http.delete(this.hotelurl + "/" + ID)
 }
-//deleteapi
- DeleteOwnerCall(Id:any){
-return this.http.delete(this.hotelurl + "/" , Id)
- }
  
+ //postapi
+ HotelBookingCall(data:any){
+   return this.http.post(this.hotelbooking,data)
+ }
+ //edit data by Hotellist -getapi
+ GetHotelById(Id:any){
+  return this.http.get(this.hotelurl + '/' + Id)
+
+ }
+PutOwnerCall(Id:any , body:any){
+ return this.http.put(this.hotelurl + '/' + Id, body)
+}
+ postHotelCall(data:any){
+  return this.http.post(this.hotelurl,data)
+ }
 }

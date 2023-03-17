@@ -10,24 +10,48 @@ import { UsersdataService } from 'src/app/services/usersdata.service';
 })
 export class NewHotelRegistrationComponent {
   Registrationform!:FormGroup
+  editdata:any
+newRegistration:any
+  dataId:any
   constructor(private Fb:FormBuilder,private userdata:UsersdataService, private router:Router){
+  }
+    ngOnInit (){ 
+      this.newRegistration=this.userdata.newRegistration
+this.editdata = this.userdata.postapidata
+console.log('data...',this.editdata);
+if (this.newRegistration) {
+  this.editdata = {};
+}
+else{
+  this.editdata=this.userdata.postapidata
+}
 this.LoginDataValidator()
   }
   LoginDataValidator(){
     this.Registrationform=this.Fb.group({
-      username:['',[Validators.required]],
-      userMobilenumber:['',[Validators.required]],
-      hotelName:['',[Validators.required]],
-      hoteladdress:['',[Validators.required]],
-      hotelMobile:['',[Validators.required]],
-      hotelMenu:['',[Validators.required]],
-      roomAvailible:['',[Validators.required]],
-      userpass:['',[Validators.required]],
-      ownercheck:['',[Validators.required]]
+      userName:[this.editdata? this.editdata.userName : '',[Validators.required]],
+      hotelName:[this.editdata? this.editdata.hotelName: '' ,[Validators.required]],
+      hotelAddress:[ this.editdata? this.editdata.hotelAddress : '' ,[Validators.required]],
+      hotelMobile:[this.editdata? this.editdata.hotelMobile:'',[Validators.required]],
+      hotelMenu:[this.editdata? this.editdata.hotelMenu:'',[Validators.required]],
+      roomAvailable:[this.editdata? this.editdata.roomAvailable:'',[Validators.required]],
+      userPass:[this.editdata? this.editdata.userPass:'',[Validators.required]],
+      ownerCheck:[this.editdata? this.editdata.ownerCheck:'',[Validators.required]]
     })
   }
   Submitdata(Data:any){
-    console.log(Data);
+ this.userdata.postHotelCall(Data).subscribe((res)=>{
+console.log(res);
+
+      })
     
-  }
-}
+    alert('data update succefully')
+    this.router.navigateByUrl('/owner')
+    }
+ 
+} 
+
+
+
+
+

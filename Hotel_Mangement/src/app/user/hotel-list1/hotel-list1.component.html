@@ -1,13 +1,12 @@
-<button routerLink="/user">Back</button>
-
+<button class="sk" routerLink="/user">Back</button>
 <div class="container text-center">
 </div>
 <div class="container">
   <div class="row">
     <div class="search-hero">
-      <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a hero by id or hotelHome or hotelAddress">
+      <input class="form-control" type="text" class="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a hero by id or hotelHome or hotelAddress">
     </div>
-    <table class="table table-striped">
+    <table border="2px" black>
       <thead>
       <tr>
           <th>Id</th>
@@ -21,7 +20,7 @@
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let data of apidata1 | filter:searchText">
+      <tr *ngFor="let data of apidata1">
           <td>{{data.id}}</td>
           <td>{{data.userName}}</td>
           <td>{{data.hotelName}}</td>
@@ -29,14 +28,9 @@
           <td>{{data.roomAvailable}}</td>
           <td>{{data.hotelAddress}}</td>
           <td>{{data.hotelMobile}}</td>
-          <td><button type="button" class="btn btn-outline-success" routerLink="/user/hotelbooking">BOOK NOW</button>
-          </td>
-          
+          <td><button type="button" style="color: blue;"  routerLink="/user/hotelbooking">BOOK NOW</button></td>    
       </tr>
       </tbody>
     </table>
-    <br>
-    <button routerLink="/user">Back</button>
-    <br>
   </div>
 </div>

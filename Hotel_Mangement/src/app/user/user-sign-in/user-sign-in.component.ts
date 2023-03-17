@@ -43,9 +43,6 @@ this.http.get<any>('http://localhost:3000/user').subscribe(result=>{
     this.route.navigateByUrl('/user-sign-in')
   }
 
-
-
-
 })
 }
  }

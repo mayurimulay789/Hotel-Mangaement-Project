@@ -10,27 +10,37 @@ import { UsersdataService } from 'src/app/services/usersdata.service';
 export class HotelListComponent {
 apidata:any;
 flag=false;
-constructor(private userdata:UsersdataService,private router:Router){
+  
+constructor(private userdata:UsersdataService,private router:Router){}
+  ngOnInit():void{
   this.DataValidator()
 }
+
 DataValidator(){
   this.userdata.GetHotelDetails().subscribe((data) => {
 this.apidata=data;
-console.log(this.apidata);
+console.log( data);
  })
  
 this.flag=true;
 }
-deleteData(id:any){
-  this.userdata.DeleteOwnerCall(id).subscribe((data) =>{
-  this.apidata=data;
-  console.log(this.apidata); 
-})
-}
- async editData(Id:any){
-  this.userdata.dataId=Id;
-this.userdata.postapidata = await this.userdata.GetHotelDetails().toPromise()
+ deleteData(Id:any){
+ this.userdata.DeleteHotelData(Id).subscribe((result)=>{
+  this.apidata=result;
+  console.log(this.apidata);
+  
+ })
 
-this.router.navigateByUrl('/new-hotel-registration')
+//to refresh HotelList
+this.DataValidator()
+}
+
+
+ async editdata(Id:any){
+  this.userdata.newRegistration = false;
+//  this.userdata.dataId=Id;
+this.userdata.postapidata = await this.userdata.GetHotelById(Id).toPromise()
+
+this.router.navigateByUrl('/owner/new-hotel-registration')
 }
 }
