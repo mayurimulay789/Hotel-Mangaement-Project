@@ -203,17 +203,6 @@
       "id": 2
     },
     {
-      "userName": "Vijay Shinde",
-      "hotelName": "Rajveer",
-      "hotelAddress": "Pune",
-      "hotelMobile": "9766725698",
-      "hotelMenu": "Shahi Panir",
-      "roomAvailable": "03",
-      "owenrCheck": true,
-      "userPass": "12345678",
-      "id": 3
-    },
-    {
       "userName": "Akshay Khose",
       "hotelName": "Paradise",
       "hotelAddress": "Nashik",
@@ -223,39 +212,6 @@
       "userPass": "12345678",
       "ownerCheck": true,
       "id": 4
-    },
-    {
-      "userName": "Suresh Kale",
-      "hotelName": "Paradise",
-      "hotelAddress": "Nashik",
-      "hotelMobile": "8787878787",
-      "hotelMenu": "Dosa",
-      "roomAvailable": "10",
-      "userPass": "12345678",
-      "ownerCheck": true,
-      "id": 5
-    },
-    {
-      "userName": "Suresh Kale",
-      "hotelName": "Paradise",
-      "hotelAddress": "Nashik",
-      "hotelMobile": "8787878787",
-      "hotelMenu": "Dosa",
-      "roomAvailable": "10",
-      "userPass": "12345678",
-      "ownerCheck": true,
-      "id": 7
-    },
-    {
-      "userName": "Mayuri Mulay",
-      "hotelName": "SR Castle",
-      "hotelAddress": "Mumbai",
-      "hotelMobile": "8787784590",
-      "hotelMenu": "Uttapas",
-      "roomAvailable": "07",
-      "userPass": "12345678",
-      "ownerCheck": true,
-      "id": 8
     },
     {
       "userName": "satish kale",
@@ -324,17 +280,6 @@
       "id": 14
     },
     {
-      "userName": "Vijay Shinde1",
-      "hotelName": "Rajveer",
-      "hotelAddress": "Pune",
-      "hotelMobile": "9766725698",
-      "hotelMenu": "Shahi Panir",
-      "roomAvailable": "03",
-      "userPass": "12345678",
-      "ownerCheck": true,
-      "id": 15
-    },
-    {
       "userName": "Suresh Kale",
       "hotelName": "Paradise",
       "hotelAddress": "Nashik",
@@ -355,6 +300,94 @@
       "userPass": "12345678",
       "ownerCheck": true,
       "id": 17
+    },
+    {
+      "userName": "Akshay Khose1",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 18
+    },
+    {
+      "userName": "Suresh Kale1",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 19
+    },
+    {
+      "userName": "Harshada Khose",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 20
+    },
+    {
+      "userName": "Suresh Kale12345",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 21
+    },
+    {
+      "userName": "Akshay Khose1234",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 22
+    },
+    {
+      "userName": "Akshay Khose1234",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 23
+    },
+    {
+      "userName": "satish kale1233",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 24
+    },
+    {
+      "userName": "Suresh Kale123",
+      "hotelName": "Paradise",
+      "hotelAddress": "Nashik",
+      "hotelMobile": "8787878787",
+      "hotelMenu": "Dosa",
+      "roomAvailable": "10",
+      "userPass": "12345678",
+      "ownerCheck": true,
+      "id": 25
     }
   ],
   "owner": [

@@ -39,17 +39,30 @@ this.LoginDataValidator()
       ownerCheck:[this.editdata? this.editdata.ownerCheck:'',[Validators.required]]
     })
   }
-  Submitdata(Data:any){
- this.userdata.postHotelCall(Data).subscribe((res)=>{
-console.log(res);
-
-      })
+  Submitdata(data:any){
+    console.log(data);
     
+    
+    
+    
+    if(this.newRegistration){
+ this.userdata.PatchHotelById(data).subscribe((resp:any)=>{
+ console.log(resp);
+ 
+      })
+    }
+    else{
+      this.userdata.postdata=data;
+      this.userdata.postobj.push(data);
+      console.log('serv data',this.userdata.postobj);
+    
+      
+    }
     alert('data update succefully')
     this.router.navigateByUrl('/owner')
     }
  
-} 
+}
 
 
 

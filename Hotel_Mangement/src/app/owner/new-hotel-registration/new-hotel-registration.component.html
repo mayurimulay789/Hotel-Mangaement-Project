@@ -44,7 +44,7 @@
 <input type="checkbox" class="input-box" formControlName="ownerCheck" required>Accept tc & Cs 
 </label><br>
 
-<button  class="button" [disabled]="Registrationform.invalid" (click)="Submitdata(Registrationform.value)">Submit</button>
+<button  class="button" [disabled]="Registrationform.invalid" (click)="Submitdata(this.Registrationform.value)">Submit</button>
 </form>
  </div>
 </div>

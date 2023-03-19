@@ -14,7 +14,10 @@ hotelurl = 'http://localhost:3000/hotelDetails'
 hotelbooking='http://localhost:3000/hotelbooking'
 postapidata:any
 dataId:any
-newRegistration:any
+newRegistration:boolean =false;
+postobj:any
+postdata:any
+hoteldetailsID:any
   constructor(private http:HttpClient) { }
   //getapi
 GetUserCall(){
@@ -55,13 +58,13 @@ DeleteHotelData(ID:any){
  HotelBookingCall(data:any){
    return this.http.post(this.hotelbooking,data)
  }
- //edit data by Hotellist -getapi
- GetHotelById(Id:any){
+ //edit data by Hotellist - getapi
+ GetHotelById(Id:Number){
   return this.http.get(this.hotelurl + '/' + Id)
 
  }
-PutOwnerCall(Id:any , body:any){
- return this.http.put(this.hotelurl + '/' + Id, body)
+PatchHotelById(hoteldetails:any):any{
+ return this.http.patch(this.hotelurl + '/' + this.hoteldetailsID ,hoteldetails )
 }
  postHotelCall(data:any){
   return this.http.post(this.hotelurl,data)

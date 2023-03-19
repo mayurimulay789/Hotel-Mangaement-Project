@@ -25,10 +25,7 @@ console.log( data);
 this.flag=true;
 }
  deleteData(Id:any){
- this.userdata.DeleteHotelData(Id).subscribe((result)=>{
-  this.apidata=result;
-  console.log(this.apidata);
-  
+ this.userdata.DeleteHotelData(Id).subscribe((result)=>{ 
  })
 
 //to refresh HotelList
@@ -37,8 +34,9 @@ this.DataValidator()
 
 
  async editdata(Id:any){
+  this.userdata.dataId=Id;
   this.userdata.newRegistration = false;
-//  this.userdata.dataId=Id;
+ 
 this.userdata.postapidata = await this.userdata.GetHotelById(Id).toPromise()
 
 this.router.navigateByUrl('/owner/new-hotel-registration')
